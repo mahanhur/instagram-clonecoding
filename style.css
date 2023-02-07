@@ -1,0 +1,601 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.item {
+  flex-basis: auto;
+
+}
+
+/* 
+------------------------
+네비게이터 시작
+------------------------
+ */
+
+nav {
+  width: 15%;
+  background-color: rgb(255, 255, 255);
+  border-right: 1px solid rgb(226, 224, 224);
+}
+
+#logo img {
+  width: 100px;
+  height: 25px;
+  margin-left: 20px;
+  margin-top: 30px;
+
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconimg {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 20px;
+  width: 25px;
+  height: 25px;
+}
+
+.iconimg8 {
+  display: flex;
+  margin-top: 18px;
+  margin-left: 18px;
+  width: 30px;
+  height: 30px;
+}
+
+#icon1, #icon2, #icon3, #icon4, #icon5, #icon6, #icon7, #icon8  {
+  display: flex;
+  flex-direction: row;
+}
+
+.homemenu {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 27px;
+}
+
+.homemenu8 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 7px;
+  margin-top: 23px;
+}
+
+
+/* 
+-----------------------------
+아티클 시작
+-----------------------------
+*/
+
+#main {
+  width: 55%;
+  height: 900px;
+  background-color: rgb(250, 246, 246);
+}
+
+
+article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* -----------------------------
+스토리부분 시작
+-----------------------------
+ */
+
+#upperbar {
+  display: flex;
+  justify-content: left;
+  width: 400px;
+  height: 80px;
+  border: 0.5px solid rgb(192, 192, 192);
+  border-radius: 10px;
+  background-color: white;
+  margin-left: 25%;
+  margin-top: 25px;
+}
+
+.storys {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.story1 {
+  flex-direction: column;
+}
+
+#storyborder1 {
+  width: 53px;
+  height: 53px;
+  margin-right: 10px;
+  border: 2px solid transparent;
+  background-image: linear-gradient(#fff, #fff),
+    linear-gradient(60deg, red, orange, yellow, green, blue, purple);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  border-radius: 50%;
+}
+
+#storycircle1 {
+  width: 50px;
+  height: 50px;
+  margin-left: 0.8px;
+  margin-top: 0.8px;
+  border: 0.8px solid transparent;
+  border-radius: 50%;
+  background-image: url("images/story1.jpg");
+  background-size: cover;
+}
+
+#storyid1 {
+  font-size: 11px;
+  margin-left: 7px;
+}
+
+.story2 {
+  flex-direction: column;
+}
+
+#storycircle2 {
+  width: 50px;
+  height: 50px;
+  margin-left: 0.8px;
+  margin-top: 0.8px;
+  border: 0.8px solid transparent;
+  border-radius: 50%;
+  background-image: url("images/story2.jpg");
+  background-size: cover;
+}
+
+#storyid2 {
+  font-size: 11px;
+  margin-left: 3px;
+}
+
+.story3 {
+  flex-direction: column;
+}
+
+#storycircle3 {
+  width: 50px;
+  height: 50px;
+  margin-left: 0.8px;
+  margin-top: 0.8px;
+  border: 0.8px solid transparent;
+  border-radius: 50%;
+  background-image: url("images/story3.jpg");
+  background-size: cover;
+}
+
+#storyid3 {
+  font-size: 11px;
+  margin-left: 3px;
+}
+
+.story4 {
+  flex-direction: column;
+}
+
+#storycircle4 {
+  width: 50px;
+  height: 50px;
+  margin-left: 0.8px;
+  margin-top: 0.8px;
+  border: 0.8px solid transparent;
+  border-radius: 50%;
+  background-image: url("images/story4.jpg");
+  background-size: cover;
+}
+
+#storyid4 {
+  font-size: 11px;
+  margin-left: 8px;
+}
+
+.story5 {
+  flex-direction: column;
+}
+
+#storycircle5 {
+  width: 50px;
+  height: 50px;
+  margin-left: 0.8px;
+  margin-top: 0.8px;
+  border: 0.8px solid transparent;
+  border-radius: 50%;
+  background-image: url("images/story5.jpg");
+  background-size: cover;
+}
+
+#storyid5 {
+  font-size: 11px;
+  margin-left: 5px;
+}
+
+
+/* -----------------------------
+메인콘텐츠 시작
+----------------------------- */
+
+.exceptnav{
+  width:100%;
+  display: flex;
+  background-color: rgb(250, 246, 246)
+  
+}
+
+#maincontents {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 0.5px solid rgb(192, 192, 192);
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 25%;
+}
+
+#contentsupper {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+#idpic {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  border: 0.8px solid transparent;
+  border-radius: 50%;
+  background-size: auto;
+  background-color: rgb(236, 155, 55);
+}
+
+#ddabong {
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#idid {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#dots {
+  margin-left: 50%;
+  margin-top: 5px;
+  font-size: 25px;
+}
+
+#picture {
+  overflow: hidden;
+  height: 400px;
+}
+
+button{
+  border:none;  /* 테두리 없이 */  
+  padding:20px;
+  background-color: transparent;  /* 투명 배경 */ 
+  color:#000;  /* 화살표 색은 검정 */  
+  font-weight:800;  /* 굵게 */ 
+  font-size: 24px;  /* 화살표 크기 */ 
+  opacity: 0.5;  /* 반투명 */ 
+}
+
+
+#prev {
+  left:0;  /* 왼쪽으로 붙여서 */ 
+}
+#next {
+  right:0;  /* 오른쪽으로 붙여서 */ 
+}
+
+
+.buttons {
+  display: flex;
+  margin: 5px;
+}
+
+.buttonsleft {
+  width: 100%;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.buttonsleft img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.buttonsright {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+#savebutton {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-top: 5px;
+
+}
+
+#comments {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#더보기 {
+  font-size: 90%;
+  color: rgb(182, 182, 182);
+
+}
+
+#모두보기 {
+  font-size: 90%;
+  color: rgb(182, 182, 182);
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#일일전 {
+  font-size: 70%;
+  color: rgb(182, 182, 182);
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+
+.댓글달기 {
+  display: flex;
+  border-top: 1px solid rgb(241, 241, 241);
+}
+
+.댓글달기left {
+  display: flex;
+}
+
+.댓글달기left img {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+
+.댓글달기글 {
+  margin-top: 8px;
+  font-size: 90%;
+  color: rgb(182, 182, 182);
+}
+
+.댓글달기right {
+  display: flex;
+}
+
+.게시글 {
+  margin-top: 10px;
+  margin-left: 247px;
+  font-size: 90%;
+  color: rgb(182, 182, 182);
+}
+
+
+/* -----------------------------
+사이드바 시작
+----------------------------- */
+
+
+
+aside {
+
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+
+#aboutme {
+  display: flex;
+}
+
+
+.mypic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url("images/story1.jpg");
+  background-size: auto;
+}
+
+.myname {
+  display: flex;
+  flex-direction: column;
+}
+
+
+#koname {
+  font-size: 90%;
+  margin-left: 10px;
+  font-weight: bold;
+  color: rgb(138, 137, 137);
+
+}
+
+.전환 {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(107, 166, 255);
+  margin-top: 13px;
+  margin-left: 150PX;
+}
+
+.recommendstome {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+#회원님을위한추천 {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(138, 137, 137);
+}
+
+#추천모두보기 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 150PX;
+}
+
+.rec1 {
+  display: flex;
+  margin-top: 20px;
+}
+
+.rec2, .rec3, .rec4, .rec5 {
+  display: flex;
+  margin-top: 15px;
+}
+
+.recpic1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url("images/recpic1.jpg");
+  background-size: cover;
+}
+
+.recpic2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url("images/recpic2.jpg");
+  background-size: cover;
+}
+
+.recpic3 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url("images/recpic3.jpg");
+  background-size: cover;
+}
+
+.recpic4 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url("images/recpic4.jpg");
+  background-size: cover;
+}
+
+.recpic5 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url("images/recpic5.jpg");
+  background-size: cover;
+}
+
+#recid {
+  margin-left: 10px;
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+#recname {
+  font-size: 11px;
+  font-weight: bold;
+  color: rgb(138, 137, 137);
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.recfollow {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(107, 166, 255);
+  margin-top: 13px;
+
+}
+
+#recf1 {
+  margin-left: 60px;
+}
+
+#recf2 {
+  margin-left: 88px;
+}
+
+#recf3 {
+  margin-left: 67px;
+}
+
+#recf4 {
+  margin-left: 50px;
+}
+
+#recf5 {
+  margin-left: 114px;
+}
+
+
+/* 
+-----------------------------
+인트로 시작
+-----------------------------
+ */
+
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro1 {
+  font-size: 11px;
+  font-weight: bold;
+  color: rgb(199, 197, 197);
+  margin-left: 0px;
+  margin-top: 30px;
+}
+
+.intro2 {
+  font-size: 11px;
+  font-weight: bold;
+  color: rgb(199, 197, 197);
+  margin-left: 0px;
+  margin-top: 15px;
+}
